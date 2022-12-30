@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {Text, View} from 'react-native';
 
 function Menu() {
   return (
@@ -10,5 +10,3 @@ function Menu() {
 }
 
 export default Menu;
-
-const styles = StyleSheet.create({});
