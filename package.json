@@ -1,5 +1,5 @@
 {
-  "name": "RandomProjx",
+  "name": "@akmal-adnan/randomprojx",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,7 +7,8 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint src/**/*.{js,ts,jsx,tsx} --quiet --fix",
+    "prettier": "prettier --write src/**/*.{js,ts,jsx,tsx}"
   },
   "dependencies": {
     "react": "18.1.0",
@@ -18,9 +19,18 @@
     "@babel/runtime": "^7.12.5",
     "@react-native-community/eslint-config": "^2.0.0",
     "babel-jest": "^26.6.3",
-    "eslint": "^7.32.0",
+    "eslint": "^8.30.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-native": "^4.0.0",
+    "husky": "^8.0.2",
     "jest": "^26.6.3",
     "metro-react-native-babel-preset": "0.72.3",
+    "prettier": "^2.8.1",
     "react-test-renderer": "18.1.0"
   },
   "jest": {
